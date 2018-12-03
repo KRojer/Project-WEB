@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Titels";
+    src: url("https://static.eurostar.com/shared/fonts-licensed/PemW-Md/pemw-md.woff2"),
+
+}
+
+
+body {
+    background-color: #FFFFFF;
+
+}
+
+
+.logo1 {
+    background-color: #061b3c;
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #ffe733;
+    text-align: center;
+}
+
+.BackgroundImage {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.TopbannerTekst {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: #FFFFFF;
+
+
+}
+
+.Topbanner {
+    position: relative;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 177px;
+    border-bottom: solid 10px;
+    border-bottom-color: #26b5c9;
+
+
+}
+
+.Resterendetijd {
+    color: #061b3c;
+    border-bottom: solid;
+    padding: 0px 0 15px 0;
+    text-align: left;
+}
+
+h2 {
+    color: #061b3c;
+}
+
+article {
+    display: inline-flex;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 2px #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+
+article img {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.Titels {
+    font-family: Titels;
+}
